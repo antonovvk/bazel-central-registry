@@ -1,0 +1,11 @@
+{
+    "homepage": "https://github.com/antonovvk/rules_boost",
+    "maintainers": [],
+    "repository": [
+        "github:antonovvk/rules_boost"
+    ],
+    "versions": [
+        "0.0.1-bzlmod",
+    ],
+    "yanked_versions": {}
+}
