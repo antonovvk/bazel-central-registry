@@ -1,0 +1,11 @@
+{
+    "homepage": "https://github.com/tukaani-project/xz",
+    "maintainers": [],
+    "repository": [
+        "github:tukaani-project/xz"
+    ],
+    "versions": [
+        "5.4.4"
+    ],
+    "yanked_versions": {}
+}
