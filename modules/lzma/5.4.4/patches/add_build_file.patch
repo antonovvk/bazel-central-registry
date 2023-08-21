@@ -1,0 +1,28 @@
+--- /dev/null
++++ BUILD.bazel
+@@ -0,0 +1,25 @@
++load("@rules_foreign_cc//foreign_cc:defs.bzl", "configure_make")
++
++package(default_visibility = ["//visibility:public"])
++
++filegroup(
++    name = "srcs",
++    srcs = glob(["**"], exclude=["bazel-*"])
++)
++
++configure_make(
++    name = "lzma",
++    args = ["-j4"],
++    configure_options = [
++        "--disable-doc",
++        "--disable-xz",
++        "--disable-xzdec",
++        "--disable-lzmadec",
++    ],
++    install_prefix = "./build",
++    lib_source = ":srcs",
++    out_lib_dir = "./",
++    out_static_libs = [
++        "lib/liblzma.a",
++    ],
++)
