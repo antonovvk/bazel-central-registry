@@ -1,8 +1,8 @@
 {
-    "homepage": "https://github.com/antonovvk/sharp_boost_voronoi",
+    "homepage": "https://github.com/bazelbuild/rules_dotnet",
     "maintainers": [],
     "repository": [
-        "github:antonovvk/sharp_boost_voronoi"
+        "github:bazelbuild/rules_dotnet"
     ],
     "versions": [
         "0.0.1",

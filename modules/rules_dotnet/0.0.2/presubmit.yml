@@ -10,5 +10,4 @@ tasks:
     name: Verify build targets
     platform: ${{ platform }}
     build_targets:
-    - '@sharp_boost_voronoi//boost_voronoi'
-    - '@sharp_boost_voronoi//:sharp_boost_voronoi'
+    - '@rules_dotnet//dotnet:*'
