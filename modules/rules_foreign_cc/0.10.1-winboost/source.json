@@ -1,0 +1,9 @@
+{
+    "url": "https://github.com/antonovvk/rules_foreign_cc/archive/c08c019c8d599e5eb21ec25cf0f8b22bde50562f.zip",
+    "integrity": "sha256-IwNcSV2w8YIMYi+HUoP70fURAxd88ee7IxIxRVHL5TU=",
+    "strip_prefix": "rules_foreign_cc-c08c019c8d599e5eb21ec25cf0f8b22bde50562f",
+    "patch_strip": 0,
+    "patches": {
+        "module_dot_bazel.patch": "sha256-c4Z0NF9Wo77tHk2qIzqlCH6xmlAKNdabZCr3rEi/fus="
+    }
+}
