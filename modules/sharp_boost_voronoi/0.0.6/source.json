@@ -1,0 +1,9 @@
+{
+    "url": "https://github.com/antonovvk/sharp_boost_voronoi/archive/4df4ec99fd5aad918acf9ae6c445d3cee7cdc0c9.zip",
+    "integrity": "sha256-UiS8MAzMmPpmINmrLmQYOJOnfgTIEBUXBcrc6Vn94qg=",
+    "strip_prefix": "sharp_boost_voronoi-4df4ec99fd5aad918acf9ae6c445d3cee7cdc0c9",
+    "patch_strip": 0,
+    "patches": {
+        "module_dot_bazel.patch": "sha256-JAUeqEpRpazkp+0aN5D7cZhfAqwVXZFw0P0FyO3ShyQ="
+    }
+}
