@@ -1,0 +1,9 @@
+{
+    "url": "https://github.com/antonovvk/rules_dotnet/archive/9077f8a6fbf43ae50fc578dd7d9d0e510e6c2247.zip",
+    "integrity": "sha256-mEchwC4EM0/6v4hFwt+zQSHdhHfna0zMP8mQZbbE4/U=",
+    "strip_prefix": "rules_dotnet-9077f8a6fbf43ae50fc578dd7d9d0e510e6c2247",
+    "patch_strip": 0,
+    "patches": {
+        "module_dot_bazel.patch": "sha256-aEvorOPhR/ZPrSzV2PScbS5WhpkKTYO58k9tnkf+tv0="
+    }
+}
