@@ -1,6 +1,12 @@
 {
     "homepage": "https://github.com/bazelbuild/rules_dotnet",
-    "maintainers": [],
+    "maintainers": [
+        {
+            "name": "Daníel Poul Purkhús",
+            "email": "purkhusid@gmail.com",
+            "github": "purkhusid"
+        }
+    ],
     "repository": [
         "github:bazelbuild/rules_dotnet"
     ],
@@ -9,6 +15,7 @@
         "0.0.2",
         "0.0.3",
         "0.0.4"
+        "0.14.0"
     ],
     "yanked_versions": {}
 }
