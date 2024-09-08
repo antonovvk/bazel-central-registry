@@ -1,0 +1,23 @@
+name: Review BCR Pull Requests
+on:
+  schedule:
+    - cron: "*/10 * * * *" # Run this action every 10 mins
+  workflow_dispatch:       # So that this can be triggered manually
+
+jobs:
+  review_prs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Harden Runner
+        if: github.repository_owner == 'bazelbuild'
+        uses: step-security/harden-runner@5c7944e73c4c2a096b17a9cb74d65b6c2bbafbde # v2.9.1
+        with:
+          egress-policy: audit
+
+      - name: Run BCR PR Reviewer
+        if: github.repository_owner == 'bazelbuild'
+        uses: bazelbuild/continuous-integration/actions/bcr-pr-reviewer@ecb81a9f161e6a560633222436406e41b93f6991 # master
+        with:
+          # This token needs to be updated annually on Feb 05.
+          token: ${{ secrets.BCR_PR_REVIEW_HELPER_TOKEN }}
+          action-type: review_prs
